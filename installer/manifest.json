@@ -1,0 +1,13 @@
+{
+  "name": "spoiler-blocker",
+  "version": "0.0.1",
+  "description": "AI that detects movie spoilers across the web and blocks them",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "serviceWorker.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "options_ui": {
+    "page": "opt.html"
+  }
+}
