@@ -7,7 +7,9 @@
     "service_worker": "serviceWorker.js"
   },
   "host_permissions": ["<all_urls>"],
+  "permissions": ["scripting"],
   "options_ui": {
-    "page": "opt.html"
+    "page": "opt.html",
+    "open_in_tab": true
   }
 }

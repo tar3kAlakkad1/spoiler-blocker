@@ -1,1 +1,1 @@
-console.log('sw');
+console.log('*********************content script*********************')
